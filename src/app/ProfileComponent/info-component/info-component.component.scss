@@ -1,0 +1,75 @@
+.name-header {
+    text-align: center;
+    padding: 10px 0;
+    // background-color: #2E2E2E; // Slightly different shade for contrast
+    // border-bottom: 2px solid #444; // A border for separation
+    //
+    // h1 {
+    //     font-size: 28px;
+    //     color: #BB86FC; // A light purple color for the name
+    // }
+}
+
+.title {
+    padding: 10px 0;
+    color: #FFFFFF; // White color for text
+    font-size: 20px;
+    text-align: center;
+    background-color: #1E1E1E; // Dark background
+    border-bottom: 2px solid #444; // A border for separation
+}
+
+.current-status-box {
+    padding: 15px;
+    background-color: #2E2E2E; // Slightly different shade for contrast
+    border-bottom: 2px solid #444; // A border for separation
+
+    // Add any specific styles for the content inside this box
+}
+
+.personal-links {
+    padding: 10px;
+    background-color: #1E1E1E; // Dark background
+
+    // If you have icons or links, you can style them here
+    a {
+        color: #BB86FC; // Light purple color for links
+        text-decoration: none;
+        margin-right: 10px; // Spacing between links
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        fa-icon {
+            font-size: 24px; // Adjust the size as needed
+            margin-right: 15px; // Spacing between icons
+        }
+
+        fa-icon  {
+            transition: transform 0.3s ease; // Smooth transition for the scaling effect
+
+            &:hover {
+                transform: scale(1.4) !important; // Scales the icon up by 10% on hover
+                color: #6200EE;
+            }
+        }
+    }
+}
+
+.personal-links a fa-icon {
+    &:hover {
+        transform: scale(1.4);
+    }
+}
+
+fa-icon {
+    &:hover {
+        transform: scale(1.8) !important;
+    }
+}
+
+
+
+
+

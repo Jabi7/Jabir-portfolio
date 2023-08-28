@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0.1px;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+    width: 100vw;
+    overflow-x: hidden; // This ensures no horizontal scrolling if there's any overflow
+    display: flex;
+    flex-direction: column; // This ensures that the child elements (components) are stacked vertically
+}
+
+/*
+a {
+    color: #BB86FC;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}*/
