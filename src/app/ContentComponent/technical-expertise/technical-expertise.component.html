@@ -1,3 +1,5 @@
-<section class="technical-expertise-section">
-    <!-- Your technical expertise content goes here -->
+<section class="technical-expertise-section" [ngClass]="{'maintenance-mode': isMaintenanceMode}">
+    <div class="maintance-message" *ngIf="isMaintenanceMode">
+      Technical Expertise Section is under construction...
+    </div>
 </section>

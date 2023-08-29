@@ -1,3 +1,6 @@
-<section class="research-section">
-    <!-- Your research content goes here -->
+<section class="research-section" [ngClass]="{'maintenance-mode': isMaintenanceMode}">
+    <div class="maintance-message" *ngIf="isMaintenanceMode">
+      Research Section is under construction...
+    </div>
+    <!-- Other content goes here -->
 </section>
