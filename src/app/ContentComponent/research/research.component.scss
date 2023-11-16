@@ -8,3 +8,37 @@
     // Additional styles for the message if needed
   }
 }
+
+$heading-color: #ff0000;
+$emphasis-color: #ff0000;
+
+.cv-section {
+  font-family: 'Courier New', monospace;
+  height: 100vh; 
+  padding: 30px;
+  margin-bottom: 1em;
+  h2 {
+    color: $heading-color;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid $heading-color;
+  }
+  .cv-event {
+    margin-top: 1em;
+    h3 {
+      color: $emphasis-color;
+      font-size: 1.2em;
+    }
+    .date {
+      font-size: 0.9em;
+      margin-bottom: 0.5em;
+    }
+    ul {
+      list-style-type: disc;
+      margin-left: 1em;
+      li {
+        margin-bottom: 0.5em;
+      }
+    }
+  }
+}

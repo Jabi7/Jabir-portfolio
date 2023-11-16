@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./research.component.scss']
 })
 export class ResearchComponent {
-    isMaintenanceMode = true;
+    isMaintenanceMode = false;
 }
