@@ -17,6 +17,7 @@ import { ContentComponentComponent } from './content-component/content-component
 
 import { ResearchComponent } from './ContentComponent/research/research.component';
 import { TechnicalExpertiseComponent } from './ContentComponent/technical-expertise/technical-expertise.component';
+import { EntrepreneurshipComponent } from './ContentComponent/entrepreneurship/entrepreneurship.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TechnicalExpertiseComponent } from './ContentComponent/technical-expert
     InfoComponentComponent,
     ContentComponentComponent,
     ResearchComponent,
-    TechnicalExpertiseComponent
+    TechnicalExpertiseComponent,
+    EntrepreneurshipComponent
   ],
   imports: [
     BrowserModule,

@@ -4,10 +4,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { ContentComponentComponent } from './content-component.component';
 import { ResearchComponent } from '../ContentComponent/research/research.component';
 import { TechnicalExpertiseComponent } from '../ContentComponent/technical-expertise/technical-expertise.component';
+import { EntrepreneurshipComponent } from '../ContentComponent/entrepreneurship/entrepreneurship.component';
 
 const contentRoutes: Routes = [
   { path: 'research', component: ResearchComponent },
   { path: 'technical-expertise', component: TechnicalExpertiseComponent },
+  { path: 'entrepreneurship', component: EntrepreneurshipComponent },
   { path: '', redirectTo: 'research', pathMatch: 'full' } // Default child route
 ];
 
