@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { AngularFireModule } from '@angular/fire/compat';
+
+import { environment } from '../environments/environment';
+
 import { FontAwesomeModule, FaIconLibrary} from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faGithub, faLinkedin, faOrcid } from '@fortawesome/free-brands-svg-icons';
@@ -34,7 +38,8 @@ import { EntrepreneurshipComponent } from './ContentComponent/entrepreneurship/e
     BrowserModule,
     AppRoutingModule,
     ContentRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    AngularFireModule.initializeApp(environment.firebase)
   ],
   providers: [],
   bootstrap: [AppComponent]
