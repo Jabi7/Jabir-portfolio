@@ -1,0 +1,181 @@
+{
+  "education": {
+    "degreeTitle": "Integrated B.Sc-M.Sc in Physics",
+    "description": "Masters in Physics with a minor in Computer Science.",
+    "institution": "National Institute of Science Education and Research (NISER)",
+    "institutionLink": "https://www.niser.ac.in/",
+    "institutionBranding": "AN AUTONOMOUS INSTITUTE UNDER DAE, GOVT. OF INDIA",
+    "dateRange": "Aug 2018 - May 2023",
+    "location": "Bhubaneswar, Odisha, India"
+  },
+  "fellowships": [
+    {
+      "title": "DAE DISHA Fellowship",
+      "dateRange": "Aug 2018 -- June 2023" 
+    }
+  ],
+
+  "coursework": [
+    {
+      "category": "Physics",
+      "courses": [
+        "Non-equilibrium Statistical Mechanics",
+        "Introduction to quantum optics",
+        "Nonlinear Optics and Lasers",
+        "Nonlinear Dynamics, Chaos and Turbulence",
+        "Quantum information and quantum computation",
+        "General relativity and Cosmology",
+        "Mechanics of continuous media",
+        "Condensed Matter Physics I",
+        "Quantum Mechanics II",
+        "Special theory of relativity",
+        "Statistical Mechanics"
+      ]
+    },
+    {
+      "category": "Computer Science",
+      "courses": [
+        "Advanced Machine Learning (pure math)",
+        "Modern Cryptology",
+        "Machine Learning",
+        "Design and Analysis of Algorithms",
+        "Discrete Structures and Computation",
+        "Theory of Computation"
+      ]
+    },
+    {
+      "category": "Mathematics",
+      "courses": [
+        "Mathematical methods I & II",
+        "Set Theory",
+        "Real Analysis"
+      ]
+    },
+    {
+      "category": "Online (Coursera)",
+      "courses": [
+        "Deep Learning Specialization: Neural Networks and Deep Learning",
+        "Deep Learning Specialization: Improving Deep Neural Networks: Hyper-parameter tuning",
+        "Deep Learning Specialization: Regularization and Optimization",
+        "Deep Learning Specialization: Structuring Machine Learning Projects",
+        "Deep Learning Specialization: Convolutional Neural Networks",
+        "Deep Learning Specialization: Sequence Models",
+        "Machine Learning Foundations: A Case Study Approach",
+        "Quantum Mechanics"
+      ]
+    }
+  ],
+  
+  "projects": [
+    {
+      "title": "State level covid cases forecasting (ML course Project)",
+      "supervisor": "Dr. Subhankar Mishra",
+      "institution": "National Institute of Science Education and Research",
+      "dateRange": "Sep 2021 -- Nov 2021",
+      "location": "Bhubaneswar, Odisha",
+      "descriptions": [
+        "Team: Nelson, Jabir.",
+        "Implemented VARMAX for multivariate forecasting and a random forest model to find the correlation to another state from a heavily infected (hotspot) state.",
+        "Proposed an idea of devising a model integrating COVID-19 compartmental models and Deep Learning models."
+      ],
+      "references": [
+        {
+          "text": "Project Report",
+          "link": "https://www.niser.ac.in/~smishra/teach/cs460/2021/project/21cs460_group18/"
+        }
+      ],
+      "skillsEnhanced": ["Machine Learning", "Data Analysis", "Forecasting", "Model Integration", "Programming", "Research", "Team Work"] 
+    },
+    {
+      "title": "Emergence of local irreversibility in complex interacting systems (Term paper)",
+      "supervisor": "Dr. Sumedha",
+      "institution": "National Institute of Science Education and Research",
+      "dateRange": "Nov 2022",
+      "location": "Bhubaneswar, Odisha",
+      "descriptions": [
+        "Gave an intuitive analysis of the framework devised by (Lynn et al., 2022) and their illustrations to see how \"interaction\" between systems contributes to the arrow of time."
+      ],
+      "references": [
+        {
+          "text": "Term Paper Report",
+          "link": "https://drive.google.com/drive/folders/18Z-8OZPi28gUNnumIrw6FHyzmU4yFsXQ?usp=share_link"
+        }
+      ]
+    },
+    {
+      "title": "Boosting nonlinear optics with Near-zero refractive index materials (Brief literature survey)",
+      "supervisor": "Dr. Shovon Pal",
+      "institution": "National Institute of Science Education and Research",
+      "dateRange": "May 2022",
+      "location": "Bhubaneswar, Odisha",
+      "descriptions": [
+        "Gave a brief survey on near-zero refractive index materials, which can be used to interrogate the fundamental principles of quantum mechanics."
+      ],
+      "references": [
+        {
+          "text": "Term Paper Report",
+          "link": "https://drive.google.com/file/d/1hZYRSN-GUNuZerWy4sryrXt1-SN4_Ueg/view?usp=share_link"
+        }
+      ]
+    },
+    {
+      "title": "Non-linear dynamic models for ideological conflicts (Term paper)",
+      "supervisor": "Prof. Colin Benjamin",
+      "institution": "National Institute of Science Education and Research",
+      "dateRange": "May 2022",
+      "location": "Bhubaneswar, Odisha",
+      "descriptions": [
+        "Reviewed the models constructed in (10.1103/PhysRevLett.109.118702) for ideological conflict and revolution in a population and replenished their results."
+      ],
+      "references": [
+        {
+          "text": "Term Paper Report",
+          "link": "https://drive.google.com/drive/folders/1BiABcjv0L44-zG7Z4kOVZSQTJ6VDZEIg?usp=share_link"
+        }
+      ]
+    },
+    {
+      "title": "Earth Field NMR and MRI (Open-ended Lab)",
+      "supervisor": "Dr. Ritwick Das",
+      "institution": "National Institute of Science Education and Research",
+      "dateRange": "Jan 2022 - May 2022",
+      "location": "Bhubaneswar, Odisha",
+      "descriptions": [
+        "Team: Ritesh, Jabir."
+      ],
+      "references": [
+        {
+          "text": "Open Lab Report",
+          "link": "https://drive.google.com/file/d/16nmt1lp2cj8ogeH-LAhySUJAKncFfZrg/view?usp=share_link"
+        }
+      ]
+    },
+    {
+      "title": "Antenna Design for detecting Decametric Jovian Radio-Emission from Jupiter: Using FEKO (Open-ended Lab)",
+      "supervisor": "Dr. Pratap Kumar Sahoo",
+      "institution": "National Institute of Science Education and Research",
+      "dateRange": "Aug 2021 - Dec 2021",
+      "location": "Bhubaneswar, Odisha",
+      "descriptions": [
+        "Team: Fida, Varun, Sreerag, Niveditha, Jabir."
+      ],
+      "references": [
+        {
+          "text": "Achievement",
+          "link": "https://drive.google.com/file/d/1EJBYh-jF86Q7BHWgPmFw0IfoZkXpCnjT/view?usp=share_link"
+        },
+        {
+          "text": "Open Lab Report 2",
+          "link": "https://drive.google.com/file/d/1ja4KfzrTNVuzXwYgozAvAs-aSJiAfphN/view?usp=share_link"
+        },
+        {
+          "text": "Open Lab Report 1",
+          "link": "https://drive.google.com/file/d/1-ohD81OwNRaG1iOCmbKetQQNC1KewxjU/view?usp=share_link"
+        }
+      ],
+      "skillsEnhanced": ["Collaboration", "Research", "Team Work"]
+    }
+  ]
+
+
+}
