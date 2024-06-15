@@ -1,0 +1,75 @@
+<!-- education.component.html -->
+<div class="education-entry">
+    <div class="left-column">
+        <h3 class="degree-title">{{ educationEntry.degreeTitle }}</h3>
+        <p class="description">{{ educationEntry.description }}</p>
+    </div>
+    <div class="center-column">
+        <a [href]="educationEntry.institutionLink" target="_blank" class="institution-link">
+            {{ educationEntry.institution }}
+        </a>
+        <p class="branding">{{ educationEntry.institutionBranding }}</p>
+    </div>
+    <div class="right-column">
+        <div class="duration">{{ educationEntry.dateRange }}</div>
+        <div class="location">{{ educationEntry.location }}</div>
+    </div>
+</div>
+
+<div class="fellowship-section">
+    <h2>Fellowships</h2>
+    <div *ngFor="let fellowship of fellowships" class="fellowship">
+      <h3>{{ fellowship.title }}</h3>
+      <p class="date-range">{{ fellowship.dateRange }}</p>
+    </div>
+  </div>
+  
+
+<!-- courseProjects section -->
+<div class="course-project-section">
+    <h2>Course Projects</h2>
+    <div *ngFor="let project of courseProjects" class="course-project">
+        <div class="project-header">
+            <h3>{{ project.title }}</h3>
+            <h4>{{ project.supervisor }}, {{ project.institution }}</h4>
+            <p class="date-location">
+                {{ project.dateRange }} | {{ project.location }}
+            </p>
+        </div>
+
+        <ul class="project-description">
+            <li *ngFor="let item of project.descriptions">{{ item }}</li>
+        </ul>
+
+        <div class="project-references" *ngIf="project.references">  
+            <h3>References</h3>
+            <ul>
+                <li *ngFor="let ref of project.references">
+                    <a [href]="ref.link" target="_blank">{{ ref.text }}</a>
+                </li>
+            </ul>
+        </div> 
+
+        <button *ngIf="project.skillsEnhanced" type="button" class="details-toggle" (click)="toggleDetails(project.id)" [attr.aria-expanded]="isProjectDetailsShown(project.id)">
+            {{ isProjectDetailsShown(project.id) ? 'Hide Skills' : 'View Skills' }}
+        </button>
+
+        <div *ngIf="isProjectDetailsShown(project.id)" class="skills-enhanced">
+            <h3>Skills Enhanced</h3>
+            <ul>
+                <li *ngFor="let skill of project.skillsEnhanced">{{ skill }}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="coursework-section">
+    <h2>Coursework</h2>
+    <div *ngFor="let category of coursework">
+      <h3>{{ category.category }}</h3>
+      <ul>
+        <li *ngFor="let course of category.courses">{{ course }}</li>
+      </ul>
+    </div>
+  </div>
+  

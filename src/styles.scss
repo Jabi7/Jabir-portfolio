@@ -1,3 +1,11 @@
+// education.component.scss
+
+@use '/src/styles/variables' as *;  
+@use '/src/styles/mixins'; 
+@use '/src/styles/education-entry';
+@use '/src/styles/experience';
+@use '/src/styles/coursework-section';
+
 * {
     margin: 0;
     padding: 0;
@@ -25,3 +33,31 @@ a {
         text-decoration: underline;
     }
 }*/
+
+
+
+
+/* Media Query */
+@media (max-width: 768px) { 
+    .education-entry {
+        flex-direction: column; 
+
+        .left-column, .center-column, .right-column {
+            text-align: left; 
+        }
+    }
+}
+
+/* Pulsate Animation */
+@keyframes pulsate { 
+    0% {
+        text-shadow: 0 0 0px rgba(187, 134, 252, 0.5);
+    }
+    50% {
+        text-shadow: 0 0 7px rgba(187, 134, 252, 0.4);
+    }
+    100% {
+        text-shadow: 0 0 0px rgba(187, 134, 252, 0.5);
+    }
+}
+

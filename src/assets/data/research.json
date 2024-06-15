@@ -1,0 +1,75 @@
+{
+    "manuscripts": [
+      {
+        "title": "Bayesian Game Theory as a Framework to Probe Quantum Foundations",
+        "status": "In preparation",
+        "authors":[],
+        "abstract": "This thesis, \"Bayesian Game Theory as a Framework to Probe Quantum Foundations,\" explores the interplay between quantum foundations and Bayesian game theory. We move beyond the common focus on non-local games and winning probabilities, often neglecting subtle quantum aspects. We introduce a Bayesian game of conflicting interests lacking a fair Nash equilibrium, where the quantum equilibrium surpasses the maximum fair Aumann's correlated equilibrium achievable classically. To replicate this non-local quantum correlation classically, players require a communication device, sharing private information. Furthermore, we construct the first local Bayesian game with a quantum equilibrium derived from a non-diagonal separable state. Its correlation can be mimicked classically using a shared random variable, but the mechanism, Aumann's correlated advice, isn't an equilibrium. To achieve the quantum equilibrium behavior classically, players must again communicate private information. Our findings reveal a non-classical feature without relying on non-locality due to entanglement, expanding our understanding of quantum phenomena. This raises questions about the relationship between known quantum features like superposition and entanglement, and whether a unifying underlying feature might exist. While not definitively proving the incompleteness of quantum theory, our research underscores the value of Bayesian game theory in probing quantum foundations and suggests new avenues for investigation."
+      },
+      {
+        "title": "Why does God play dice?",
+        "status": "In preparation",
+        "authors": [{
+          "name": "Muhammed Jabir Thayyil",
+          "format": "bold"
+        }],
+        "abstract": "In this paper, we revisit the philosophical and scientific implications of Albert Einstein's famous objection to the inherent randomness of quantum mechanics, encapsulated in his assertion that \"God does not play dice.\" We focus on the enduring quest to interpret the enigmatic quantum phenomenon of wave function collapse, the process by which quantum possibilities seemingly resolve into definite outcomes. \n\nWe explore the tension between the empirically validated Uncertainty Principle, which suggests an inherent indeterminacy in the quantum world, and the intuitive appeal of determinism, where every event is causally determined. We examine the consequences of a hypothetical deterministic universe, particularly in the context of quantum entanglement—the phenomenon Einstein famously dubbed \"spooky action at a distance.\" We argue that in a strictly deterministic universe, the correlations observed between entangled particles would imply the ability to send signals faster than light, violating the principle of non-signalling and leading to a paradox. \n\nTo address this paradox, we propose a novel interpretation that draws on the concept of retrocausality, where the future can subtly influence the past. This framework allows for correlations between entangled particles without the need for superluminal communication, thus preserving the principle of non-signalling and upholding causality. This interpretation, while speculative, offers a fresh perspective on the long-standing debate between determinism and indeterminacy, highlighting the complex interplay between past, present, and future in the quantum realm. \n\nWhile this exploration does not offer a definitive answer to the question of why or how \"God plays dice,\" it aims to stimulate further discussion and research into the fundamental nature of reality, the limits of our knowledge, and the philosophical implications of quantum mechanics, with a particular emphasis on the significance of non-signalling in understanding the mysteries of quantum entanglement."
+      }
+    ],
+    "projects": [
+        {
+          "title": "Bayesian Game Theory as a Framework to Probe Quantum Foundations",
+          "status": "(M.Sc Dissertation)",
+          "supervisor": "Prof. Andreas Winter and Prof. Giannicola Scarpa, Prof. Sudhakar Panda (Local co-supervisor)",
+          "institution": "NISER Bhubaneswar, Odisha",
+          "dateRange": "August 2022 -- May 2023",
+          "location": "NISER Bhubaneswar, Odisha",
+          "descriptions": [
+            "Formulated a unique Bayesian game with no fair Nash equilibrium. The game has a Quantum equilibrium that yields amplified fair solutions, thus effectively exploring the boundary between Local and Quantum non-Local correlations, inherently addressing the shortcomings of the popular approach of non-local games and winning probability.",
+            "Formulated an early Local Bayesian game with a Quantum equilibrium (but not ACE) of Local correlation originating from a non-diagonal separable state, demonstrating a non-classical feature of Quantum theory without non-locality due to entanglement."
+          ],
+          "skillsEnhanced": "Developed strong analytical skills and the ability to work independently through the formulation of a unique Bayesian game, gained hands-on experience with quantum systems, enhanced problem-solving abilities through the exploration of complex quantum correlations, improved mathematical skills through the proof of a complex lemma, and honed programming skills by implementing a numerical optimization algorithm."
+        },
+        {
+          "title": "Quantum correlated strategies for games with incomplete information",
+          "status": "(Internship)",
+          "supervisor": "Prof. Andreas Winter and Dr. Giannicola Scarpa",
+          "institution": "UAB Barcelona",
+          "dateRange": "June 2022 -- July 2022",
+          "location": "online",
+          "descriptions": [
+            "Comprehended the unified Bayesian game theoretic framework to study non-local correlations and discovered potential reforms.",
+            "Proposed a new idea and definition for Bayesian graphical games and conceptually questioned the potential no-signaling and simpler quantum-correlated solutions for such games (without implementing complex multiparty entangled states by analyzing sub-games in the network)."
+          ],
+          "skillsEnhanced": "Developed strong analytical skills, demonstrated creativity in proposing new ideas and definitions, showcased critical thinking in questioning potential solutions, and exhibited a deep understanding of Bayesian game theory, networks, and non-local correlations."
+        },
+        {
+            "title": "The nature of entanglement in EWL scheme Quantum games",
+            "status": "(B.Sc Project)",
+            "supervisor": "Prof. Colin Benjamin",
+            "institution": "National Institute of Science Education and Research",
+            "dateRange": "January 2021 -- May 2021",
+            "location": "Bhubaneswar, Odisha",
+            "descriptions": [
+              "Studied non-cooperative quantum games (EWL) and worked on a research paper in which we contest van Enk and Pike's assertion (2002) with mixed quantum strategies yielding unique Pareto optimal solutions.",
+              "Studied and explored Robert Aumann's correlated games. By comparing quantum games (EWL) and Aumann's correlated games, we addressed the argument 'EWL quantum games are a kind of correlated game constructed from independent players.'"
+            ],
+            "skillsEnhanced": ""
+          },
+          {
+            "title": "COVID-19 and the Vaccine dilemma",
+            "status": "(Project)",
+            "supervisor": "Prof. Colin Benjamin",
+            "institution": "National Institute of Science Education and Research",
+            "dateRange": "March 2021 -- Feb 2022",
+            "location": "Bhubaneswar, Odisha",
+            "descriptions": [
+              "Formulated a novel framework with game theory and infectious disease modeling to study the optimal strategy (convergently stable Nash equilibrium) for individuals in a population to vaccinate, considering the vaccine's risk, benefit, and efficacy.",
+              "Primarily, we uncover an ironic effect of the decline in free riding (individual's rejection to contribute to vaccine uptake, believing the rest of the population may contribute to eradicating the disease) with 'decreasing' vaccine efficacy, which further increases vaccine uptake with the increased benefit of vaccination (or reduced risk of vaccine breakthrough infection) using our framework."
+            ],
+            "skillsEnhanced": ""
+          }
+      ]
+      
+  }
+  

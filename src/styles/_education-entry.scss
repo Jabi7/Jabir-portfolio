@@ -1,0 +1,61 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.education-entry {
+    border-left: 4px solid $primary-color;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: $background-color;
+    color: $text-color;
+
+    display: flex; 
+    justify-content: space-between;
+
+    .left-column, .center-column, .right-column {
+        flex: 1; 
+    }
+
+    .left-column { 
+        text-align: left;
+
+        .degree-title { 
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .description { 
+            margin-top: 5px;
+        }
+    }
+    
+    .right-column {
+        text-align: right;
+
+        .duration, .location { 
+            font-size: 0.9em;
+            color: $text-gray;
+            display: block;
+        }
+    }
+
+    .center-column {
+        text-align: center;
+
+        .institution-link {
+            color: $primary-color;
+            text-decoration: none;
+            font-weight: 500;
+            @include pulsate-animation(); // Include the pulsate mixin
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .branding {
+            font-size: 0.8em;
+            color: $text-gray;
+            margin-top: 5px;
+        }
+    }
+}

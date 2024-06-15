@@ -5,6 +5,61 @@
     <!-- Other content goes here -->
 
     <div class="cv-section">
+      <h2>Works</h2>
+      <div class="cv-event">
+        <h3>Publications</h3>
+  
+      <ul>
+          <li>
+              <strong>Muhammed Jabir T.</strong>, Nilesh Vyas, Colin Benjamin,
+              "Is the essence of a quantum game captured completely in the original classical game?",
+              Physica A: Statistical Mechanics and its Applications,
+              Volume 584,
+              2021,
+              126360,
+              ISSN 0378-4371,
+              <a href="https://doi.org/10.1016/j.physa.2021.126360">https://doi.org/10.1016/j.physa.2021.126360</a>
+          </li>
+      </ul>
+      </div>
+
+      <div class="cv-event">
+        <h3>Manuscripts</h3>
+        <ul>
+          <li *ngFor="let manuscript of manuscripts">
+            <div>
+              
+              <span *ngFor="let author of manuscript.authors">
+                <span *ngIf="author.format === 'bold'" class="bold">{{ author.name }},</span>
+                <span *ngIf="author.format !== 'bold'">{{ author.name }}</span> 
+                <span *ngIf="!manuscript.authors.length">No Authors Listed</span>
+              </span>
+              "{{ manuscript.title }}",
+              ({{ manuscript.status }}) 
+            </div>
+            
+            <button type="button" class="abstract-toggle" 
+                    [attr.aria-expanded]="shownAbstracts[manuscript.id]" 
+                    [attr.aria-controls]="'abstract-' + manuscript.id"
+                    (click)="toggleAbstract(manuscript.id)">
+              {{ shownAbstracts[manuscript.id] ? 'Close Abstract' : 'Read Abstract' }}
+            </button>
+            <div *ngIf="shownAbstracts[manuscript.id]" 
+                 id="'abstract-' + manuscript.id" 
+                 class="abstract-content">
+              <h3>Abstract</h3> 
+              <p>
+                {{ manuscript.abstract }} 
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      
+  </div>
+  
+
+    <div class="cv-section">
       <h2>Personal projects</h2>
       <div class="cv-event">
         <h3>Multi-artificial intelligent agent systems</h3>
@@ -17,5 +72,37 @@
         </ul>
       </div>
     </div>
+
+    <div class="cv-section">
+      <h2>Research Experience</h2>
+    
+      <div *ngFor="let project of projects" class="cv-event">
+        <h3>{{ project.title }} ({{ project.status }})</h3>
+        <h4>{{ project.supervisor }}, {{ project.institution }}</h4>
+        <p>{{ project.dateRange }}</p>
+        <p>{{ project.location }}</p>
+    
+        <ul>
+          <li *ngFor="let description of project.descriptions">{{ description }}</li>
+        </ul>
+    
+        <button *ngIf="project.skillsEnhanced" type="button" class="details-toggle" 
+                [attr.aria-expanded]="shownDetails[project.id]" 
+                [attr.aria-controls]="'details-' + project.id"
+                (click)="toggleDetails(project.id)">
+            {{ shownDetails[project.id] ? 'Close Details' : 'View Skills enhanced' }}
+        </button>
+    
+        <div *ngIf="shownDetails[project.id]" id="'details-' + project.id" class="details-content">
+            <h3>Skills Enhanced</h3>
+            <p>{{ project.skillsEnhanced }}</p>
+        </div>
+      </div>
+    </div>
+    
+
+
+  
+  
     
 </section>

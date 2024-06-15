@@ -14,9 +14,9 @@ $emphasis-color: #ff0000;
 
 .cv-section {
   font-family: 'Courier New', monospace;
-  height: 100vh; 
+  // height: 100vh; 
   padding: 30px;
-  margin-bottom: 1em;
+  // margin-bottom: 1em;
   h2 {
     color: $heading-color;
     font-size: 1.5em;
@@ -41,4 +41,66 @@ $emphasis-color: #ff0000;
       }
     }
   }
+}
+ 
+/* ... (Your existing styles) ... */
+
+
+$link-color: #3c38fa;
+
+
+.abstract-toggle {
+    display: block;  // Make it occupy full width
+    width: auto;    // Let it adjust width based on content
+    margin: 0.5em;  // Add some space above
+    background-color: transparent; // No background
+    border: 2px solid $link-color;
+    color: $link-color;  
+    padding: 8px 15px;      // A bit more padding
+    cursor: pointer;
+    font-family: 'Courier New', monospace; // Match font
+    font-size: 0.7em;
+    text-transform: uppercase; // All caps, like other elements
+    transition: background-color 0.3s ease, color 0.3s ease;  // Smooth transitions
+
+    &:hover {
+        background-color: $link-color;
+        color: white;
+    }
+}
+
+
+.abstract-content {
+    margin: 0.5em;
+    padding: 10px;
+    border: 2px solid $link-color;
+    border-radius: 0; // Remove rounded corners for sharper look
+}
+
+.details-toggle {
+  display: block;  // Make it occupy full width
+  width: auto;    // Let it adjust width based on content
+  margin: 0.5em;  // Add some space above
+  background-color: transparent; // No background
+  border: 2px solid $link-color;
+  color: $link-color;  
+  padding: 8px 15px;      // A bit more padding
+  cursor: pointer;
+  font-family: 'Courier New', monospace; // Match font
+  font-size: 0.7em;
+  text-transform: uppercase; // All caps, like other elements
+  transition: background-color 0.3s ease, color 0.3s ease;  // Smooth transitions
+
+  &:hover {
+      background-color: $link-color;
+      color: white;
+  }
+}
+
+
+.details-content {
+  margin: 0.5em;
+  padding: 10px;
+  border: 2px solid $link-color;
+  border-radius: 0; // Remove rounded corners for sharper look
 }

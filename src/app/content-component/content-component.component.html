@@ -1,5 +1,8 @@
+<!-- content-component.component.html -->
+
 <div class="content-container">
     <nav class="content-nav">
+      <a routerLink="education" routerLinkActive="active">Education</a>
       <a routerLink="research" routerLinkActive="active">Research</a>
       <a routerLink="technical-expertise" routerLinkActive="active">Technical Expertise</a>
       <a routerLink="entrepreneurship" routerLinkActive="active">Entrepreneurship</a>
@@ -7,7 +10,4 @@
 
     <router-outlet></router-outlet> <!-- This will display the routed child component's view -->
 
-
- <!--   <app-research></app-research>
-    <app-technical-expertise></app-technical-expertise>-->
 </div>

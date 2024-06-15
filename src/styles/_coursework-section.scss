@@ -1,0 +1,58 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+
+.coursework-section {
+  margin-top: 40px;
+  background-color: $background-color;
+  color: $text-color;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    margin-bottom: 15px;
+    color: $primary-color;
+    font-weight: 500;
+  }
+
+  h3 {
+    color: $light-gray;
+    font-weight: normal;
+    border-bottom: 1px solid $divider-color; 
+    padding-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 20px;
+
+    li {
+      position: relative;
+      padding-left: 25px;
+      margin-bottom: 8px;
+      color: $light-gray;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: $primary-color; 
+      }
+
+      &:hover {
+        background-color: rgba(187, 134, 252, 0.1);
+        transform: translateX(5px);
+    }
+    }
+
+
+  }
+}
+

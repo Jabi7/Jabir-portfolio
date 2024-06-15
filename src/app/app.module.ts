@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+
 
 import { AngularFireModule } from '@angular/fire/compat';
 
@@ -22,6 +24,7 @@ import { ContentComponentComponent } from './content-component/content-component
 import { ResearchComponent } from './ContentComponent/research/research.component';
 import { TechnicalExpertiseComponent } from './ContentComponent/technical-expertise/technical-expertise.component';
 import { EntrepreneurshipComponent } from './ContentComponent/entrepreneurship/entrepreneurship.component';
+import { EducationComponent } from './ContentComponent/education/education.component';
 
 @NgModule({
   declarations: [
@@ -30,12 +33,15 @@ import { EntrepreneurshipComponent } from './ContentComponent/entrepreneurship/e
     NamePicComponentComponent,
     InfoComponentComponent,
     ContentComponentComponent,
+    EducationComponent,
     ResearchComponent,
     TechnicalExpertiseComponent,
-    EntrepreneurshipComponent
+    EntrepreneurshipComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule,
     ContentRoutingModule,
     FontAwesomeModule,
